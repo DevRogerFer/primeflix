@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Projeto "PrimeFlix"
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/DevRogerFer/primeflix/blob/main/LICENSE)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre o Projeto
 
-## Available Scripts
+Aplicação simples executada localmente que consiste no consumo de uma API externa e gratuita para listar filmes em cartaz na atualidade. São listados 20 (vinte) filmes que estão sendo exibidos atualmente, bastando rolarmos a homepage para escolhermos um dos filmes. Criado com React JS, utilizando bibliotecas como react-router-dom para navegação e roteamento e também JavaScript e CSS.
 
-In the project directory, you can run:
+## Estrutura básico do projeto no VS Code:
 
-### `npm start`
+![Estrutura Básica](https://github.com/DevRogerFer/primeflix/blob/main/assets/1.estrutura_basica.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Homepage:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Homepage](https://github.com/DevRogerFer/primeflix/blob/main/assets/2.home_page.png)
 
-### `npm test`
+## Detalhes do filme:
+Ao selecionarmos um dos filmes, temos a opção de acessar sua sinopse, o título, uma outra capa, além da avaliação e as opções de salvar em favoritos e assistir ao trailer no YouTube.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Detalhes do filme](https://github.com/DevRogerFer/primeflix/blob/main/assets/3.detalhes_filme.png)
 
-### `npm run build`
+## Salvando o filme em favoritos (Meus Filmes):
+Clicando então em salvar, o filme escolhido será salvo e a mensagem será exibida no canto superior direito.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Salvando o filme](https://github.com/DevRogerFer/primeflix/blob/main/assets/4.salvando_filme.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Meus Filmes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Meus filmes](https://github.com/DevRogerFer/primeflix/blob/main/assets/5.favoritos.png)
 
-### `npm run eject`
+## Local Storage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Para tanto, o filme será salvo localmente no Local Storage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Local Storage](https://github.com/DevRogerFer/primeflix/blob/main/assets/6.%20local_storage.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Buscando trailer no YouTube
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clicando em trailer será redirecionado ao YouTube e poderemos escolher um dos trailers apresentados.
 
-## Learn More
+![Buscando trailer](https://github.com/DevRogerFer/primeflix/blob/main/assets/7.buscando_trailler.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Conteúdos abordados:
+- Conceitos:
+  - API Rest
+  - React JS 
+  - React Use Effect
+  - React Use State
+  - React Router DOM
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tecnologias utilizadas
+  - React JS
+  - Java Script
+  - CSS
 
-### Code Splitting
+# Autor
+Rogério Fernandes Siqueira
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+https://www.linkedin.com/in/devrogerfer/
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://freelancer.com.br/freelancers/rog%C3%A9rio-2QVWBR25?nocache=1
