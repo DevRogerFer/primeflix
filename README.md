@@ -54,7 +54,3 @@ Clicando em trailer será redirecionado ao YouTube e poderemos escolher um dos t
 
 # Autor
 Rogério Fernandes Siqueira
-
-https://www.linkedin.com/in/devrogerfer/
-
-https://freelancer.com.br/freelancers/rog%C3%A9rio-2QVWBR25?nocache=1
